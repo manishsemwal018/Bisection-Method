@@ -1,9 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
 #include<math.h>
-
- 
-
 
 #define f(x) cos(x) - x * exp(x)
 
@@ -11,7 +7,6 @@ void main()
 {
 	 float x0, x1, x2, f0, f1, f2, e;
 	 int step = 1;
-	 clrscr();
 	
 	 up:
 	 printf("\nEnter two initial guesses:\n");
@@ -49,5 +44,4 @@ void main()
 		  step = step + 1;
 	 }while(fabs(f2)>e);
 	 printf("\nRoot is: %f", x2);
-	 getch();
 }
