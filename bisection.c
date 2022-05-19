@@ -38,5 +38,4 @@ void main()
 		  step = step + 1;
 	 }while(fabs(f2)>e);
 	 printf("\nRoot is: %f", x2);
-	 //getch();
 }
